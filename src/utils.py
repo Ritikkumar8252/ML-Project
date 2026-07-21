@@ -121,4 +121,4 @@ def load_object(file_path):
 
     except Exception as e:
         # Raise custom error if loading fails
-        raise CustomException(e, sys)
+        raise CustomException(e, sys) 
