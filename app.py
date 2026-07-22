@@ -228,4 +228,11 @@ if __name__ == "__main__":
     # from other devices on the same network.
     #
     # Default Port = 5000
-    app.run(host="0.0.0.0")
+    # app.run(host="0.0.0.0")   
+    # this not show url in terminal  direct search in the browser
+    app.run(
+        host="127.0.0.1",
+        port=5000,
+        debug=True,
+        use_reloader=False
+    )
